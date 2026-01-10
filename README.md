@@ -64,13 +64,13 @@ Dashboard Preview
 
 \### Map Analysis and Trends
 
-!\[alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/SCREENSHOTS/Map\_analysis\_and\_trends.png?raw=true)
+!\[alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/SCREENSHOTS/Analysis\_One.png?raw=true)
 
 
 
 \### Price Trends
 
-!\[alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/SCREENSHOTS/Price\_trends.png?raw=true)
+!\[alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/SCREENSHOTS/Analysis\_Two.png?raw=true)
 
 
 
