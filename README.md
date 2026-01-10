@@ -58,15 +58,15 @@ Click \[here](https://github.com/USERNAME/REPO/raw/main/KENYA%20FOOD%20MARKET%20
 
 
 
-Dashboard Preview
+\### Map Analysis and Trends
+
+!\[Map Analysis showing food market trends in Kenya](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/raw/main/SCREENSHOTS/Analysis\_One.png)
 
 
 
-!\[Map Analysis and Trends](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/raw/main/SCREENSHOTS/Analysis\_One.png)
+\### Price Trends
 
-
-
-!\[Price Trends](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/raw/main/SCREENSHOTS/Analysis\_Two.png)
+!\[Price Trends for various food commodities](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/raw/main/SCREENSHOTS/Analysis\_Two.png)
 
 
 
