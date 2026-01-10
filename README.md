@@ -62,17 +62,9 @@ Click \[here](https://github.com/USERNAME/REPO/raw/main/KENYA%20FOOD%20MARKET%20
 
 
 
-\### Map Analysis and Trend
+!\[Map Analysis and Trend](./images/Map\_analysis\_and\_trend.png)
 
-!\[Map Analysis and Trend](images/Map%20analysis%20and%20trend.png)
-
-
-
-\### Price Trends
-
-!\[Price Trends](images/Price%20trends.png)
-
-\# Kenya Food Market Prices – Power BI Dashboard
+!\[Price Trends](./images/Price\_trends.png)
 
 
 
@@ -103,10 +95,4 @@ The model is built using a \*\*star schema\*\*:
 
 
 Brian Kipkorir Kiptoo.
-
-
-
-
-
-
 
