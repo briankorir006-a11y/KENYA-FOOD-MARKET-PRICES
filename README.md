@@ -60,15 +60,15 @@ Click \[here](https://github.com/USERNAME/REPO/raw/main/KENYA%20FOOD%20MARKET%20
 
 
 
-\## \*\*Dashboard Preview-Map \& Trend Analysis\*\*
-
-!\[alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/Dashboard\_Preview\_Two.png?raw=true)
-
-
-
-
-
 \## \*\*Dashboard Preview-Price Analysis\*\*
+
+![alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/Dashboard\_Preview\_Two.png?raw=true)
+
+
+
+
+
+\## \*\*Dashboard Preview-Price & Map Analysis\*\*
 
 ![alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/Dashboard\_Preview\_One.png?raw=true)
 
