@@ -62,9 +62,17 @@ Click \[here](https://github.com/USERNAME/REPO/raw/main/KENYA%20FOOD%20MARKET%20
 
 
 
-!\[Map Analysis and Trend](./images/Map\_analysis\_and\_trend.png)
+\##Map Analysis and Trends
 
-!\[Price Trends](./images/Price\_trends.png)
+!\[Map Analysis and Trends](images/Map\_analysis\_and\_trends.png)
+
+
+
+\##Price Trends
+
+!\[Price Trends](images/Price\_trends.png)
+
+
 
 
 
