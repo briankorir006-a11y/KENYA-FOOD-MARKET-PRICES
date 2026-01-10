@@ -1,2 +1,112 @@
 # KENYA-FOOD-MARKET-PRICES
-END- TO-END POWER BI PROJECT ANALYZING FOOD PRICE TRENDS ACROSS KENYA USING KAGGLE DATA.
+
+END-TO-END POWER BI PROJECT ANALYZING FOOD PRICE TRENDS ACROSS KENYA.
+
+
+
+This project presents an end-to-end Power BI analysis of food market prices in Kenya.
+
+The dashboard focuses on price trends, regional comparisons, and category-level analysis.
+
+
+
+\## Data Source
+
+\- Kaggle – Kenya Food Market Prices dataset
+
+
+
+\## Power BI Report
+
+
+
+Click \[here](https://github.com/USERNAME/REPO/raw/main/KENYA%20FOOD%20MARKET%20DASHBOARD.pbix) to download the Power BI report.
+
+
+
+\## Dashboard Features
+
+
+
+\- \*\*KPIs\*\*
+
+  - Average Price
+
+  - Highest Price
+
+  - Minimum Price
+
+
+
+\- \*\*Visuals\*\*
+
+  - Food Category vs Average Price
+
+  - Price Over Time
+
+  - Region vs Average Price
+
+  - Sum of Price (KSh) by Commodity \& Region
+
+  - Annual Average Price by Year
+
+  - Year-over-Year (YoY) Price Change %
+
+  - Map showing Sum of Price by Region using Latitude \& Longitude
+
+  - Table with Region and Sum of Price (KSh)
+
+
+
+\## Dashboard Screenshots
+
+
+
+\### Map Analysis and Trend
+
+!\[Map Analysis and Trend](images/Map%20analysis%20and%20trend.png)
+
+
+
+\### Price Trends
+
+!\[Price Trends](images/Price%20trends.png)
+
+\# Kenya Food Market Prices – Power BI Dashboard
+
+
+
+\- \*\*Slicers\*\*
+
+  - Region, Town, Market
+
+  - Price Type
+
+  - Year, Quarter, Month
+
+
+
+\## Data Modeling
+
+
+
+The model is built using a \*\*star schema\*\*:
+
+\- Fact table containing food prices
+
+\- Dimension tables for Date, Location, and Food Category
+
+
+
+\## 👤 Author
+
+
+
+Brian Kipkorir Kiptoo.
+
+
+
+
+
+
+
