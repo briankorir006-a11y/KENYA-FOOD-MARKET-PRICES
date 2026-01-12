@@ -1,6 +1,6 @@
 # KENYA-FOOD-MARKET-PRICES
 
-END-TO-END POWER BI PROJECT ANALYZING FOOD PRICE TRENDS ACROSS KENYA.
+**END-TO-END POWER BI PROJECT ANALYZING FOOD PRICE TRENDS ACROSS KENYA**
 
 
 
@@ -10,13 +10,13 @@ The dashboard focuses on price trends, regional comparisons, and category-level 
 
 
 
-\## Data Source
+**Data Source**
 
-\- Kaggle – Kenya Food Market Prices dataset
+Kaggle – Kenya Food Market Prices dataset
 
 
 
-\## Power BI Report
+**Power BI Report**
 
 
 
@@ -24,11 +24,11 @@ Click [here](https://drive.google.com/file/d/1iiR_zMYamxI2Uf3Kf8vF6xdBw4bov3Wj/v
 
 
 
-\## Dashboard Features 
+**Dashboard Features** 
 
 
 
-\- \*\*KPIs\*\*
+**KPIs**
 
   - Average Price
 
@@ -38,7 +38,7 @@ Click [here](https://drive.google.com/file/d/1iiR_zMYamxI2Uf3Kf8vF6xdBw4bov3Wj/v
 
 
 
-\- \*\*Visuals\*\*
+**Visuals**
 
   - Food Category vs Average Price
 
@@ -56,11 +56,56 @@ Click [here](https://drive.google.com/file/d/1iiR_zMYamxI2Uf3Kf8vF6xdBw4bov3Wj/v
 
   - Table with Region and Sum of Price (KSh)
 
+**Measures & Calculations**
+**Daily Average Price**
+Average Price (Daily) =
+AVERAGE ( FACT_FOOD_PRICES[price in Ksh] )
 
 
+Used for:
+
+*KPI cards
+
+*Price trends over time
+
+**Regional and category comparisons**
+
+Annual Average Price
+Annual Average Price =
+CALCULATE (
+    AVERAGE ( FACT_FOOD_PRICES[price in Ksh] ),
+    ALLEXCEPT ( 'Date', 'Date'[Year] )
+)
 
 
-\## \*\*Dashboard Preview-Price Analysis\*\*
+Used for:
+
+*Long-term price trend analysis
+
+*Inflation-related insights
+
+**Year-over-Year (YoY) Price Change %**
+YoY Price Change % =
+VAR PrevYear =
+    CALCULATE (
+        [Annual Average Price],
+        DATEADD ( 'Date'[Date], -1, YEAR )
+    )
+RETURN
+IF (
+    NOT ISBLANK ( PrevYear ),
+    DIVIDE (
+        [Annual Average Price] - PrevYear,
+        PrevYear
+    )
+)
+
+
+✔ YoY is calculated only at annual grain
+✔ Avoids performance issues from daily/monthly YoY calculations
+
+
+**Dashboard Preview-Price Analysis**
 
 ![alt text](https://github.com/briankorir006-a11y/KENYA-FOOD-MARKET-PRICES/blob/main/Dashboard\_Preview\_Two.png?raw=true)
 
@@ -76,7 +121,7 @@ Click [here](https://drive.google.com/file/d/1iiR_zMYamxI2Uf3Kf8vF6xdBw4bov3Wj/v
 
 
 
-\- \*\*Slicers\*\*
+**Slicers**
 
   - Region, Town, Market
 
@@ -86,19 +131,17 @@ Click [here](https://drive.google.com/file/d/1iiR_zMYamxI2Uf3Kf8vF6xdBw4bov3Wj/v
 
 
 
-\## Data Modeling
+**Data Modeling**
 
 
 
-The model is built using a \*\*star schema\*\*:
+The model is built using a **star schema**:
 
-\- Fact table containing food prices
-
-\- Dimension tables for Date, Location, and Food Category
-
+*Fact table containing food prices
+*Dimension tables for Date, Location, and Food Category
 
 
-\## 👤 Author
+👤 **Author**
 
 
 
