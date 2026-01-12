@@ -20,7 +20,7 @@ The dashboard focuses on price trends, regional comparisons, and category-level 
 
 
 
-Click [here](https://github.com/USERNAME/REPO/raw/main/KENYA%20FOOD%20MARKET%20DASHBOARD.pbix) to download the Power BI report.
+Click [here](https://drive.google.com/file/d/1iiR_zMYamxI2Uf3Kf8vF6xdBw4bov3Wj/view?usp=drive_link) to download the Power BI report.
 
 
 
