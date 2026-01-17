@@ -14,6 +14,9 @@ The dashboard focuses on price trends, regional comparisons, and category-level 
 
 Kaggle – Kenya Food Market Prices dataset
 
+**Dataset**
+
+Click [here](https://drive.google.com/file/d/1iiR_zMYamxI2Uf3Kf8vF6xdBw4bov3Wj/view?usp=drive_link) to download the dataset.
 
 
 **Power BI Report**
